@@ -25,7 +25,6 @@ class Main extends PluginBase {
 			$count = 0;
 			foreach($player->getInventory()->getContents() as $index => $item){
 				$player->getInventory()->setItem($index, ItemFactory::air());
-				$player->
 				$count++;
 			}
 			$player->sendMessage(TF::GREEN . $count . " item(s) was cleared from your inventory");
