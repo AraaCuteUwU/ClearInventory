@@ -1,0 +1,15 @@
+name: ClearInventory
+author: AraaCuteUwU
+main: AraaCuteUwU\ClearInventory\Main
+api: 4.0.0
+version: 1.0.0
+
+commands:
+ clearinventory:
+  description: Clear your inventory
+  aliases: ["clearinv"]
+  permission: clearinventory.cmd
+  
+permissions:
+ clearinventory.cmd:
+  default: true
